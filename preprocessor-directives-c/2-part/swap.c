@@ -8,12 +8,12 @@ void swap(int *a, int *b)
 }
 
 #define SWAP(x, y) \
-	do {           \
-		int temp;  \
-		temp = x;  \
-		x = y;     \
-   		y = temp;  \
-	} while(0)
+    do {           \
+        int temp;  \
+        temp = x;  \
+        x = y;     \
+        y = temp;  \
+    } while(0)
 
 int main(int argc, char *argv[])
 {
